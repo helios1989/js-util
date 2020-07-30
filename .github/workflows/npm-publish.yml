@@ -16,6 +16,6 @@ jobs:
         node-version: 12
     - name: Publish if version has been updated
       uses: pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df
-      run: npm publish --access public
+
       env: 
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} 

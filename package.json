@@ -16,6 +16,7 @@
     "typescript",
     "javascript"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "https://github.com/helios1989/js-util.git"
